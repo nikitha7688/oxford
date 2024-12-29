@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Oxford University</title>
+    <link rel="stylesheet" href="style.css">
+
+
+    <link rel="stylesheet" href="style.css">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chau+Philomene+One:ital@0;1&family=Ojuju:wght@200..800&family=Poetsen+One&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Spicy+Rice&family=Ysabeau+SC:wght@1..1000&display=swap" rel="stylesheet">
+
+
+
+
+</head>
+<body>
+   
+    <section class="header-about">
+        <nav>
+            <a href="index.html"><img src="imges/logo.jpg" ></a><h1>OXFORD UNIVERSITY</h1>
+
+            <div  id = "navlinks"  class="nav-links">
+                <i class="fa-solid fa-x" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    
+                </ul>
+
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            </nav>
+            
+            </section>
+
+    <section class="contact-banner">
+        <h1>Contact Us</h1>
+        <p>If you have any questions or would like more information about Oxford University, feel free to get in touch with us. Our team is here to assist you with any inquiries you may have. We encourage prospective students, parents, and visitors to reach out with any questions.</p>
+        
+        
+            <h2>Contact Information</h2>
+            <img src="./imges/contact1.jpg" alt="Oxford University Campus" style="width:100%; max-width:800px;">
+            <p>We are located in the heart of Oxford, UK. You can reach us through the following contact details:</p>
+            <ul>
+                <li>Email: <a href="mailto:info@oxford.ac.uk">info@oxford.ac.uk</a></li>
+                <li>Phone: <a href="tel:+441865123456">+44 1865 123456</a></li>
+                <li>Address: University Offices, Wellington Square, Oxford OX1 2JD, United Kingdom</li>
+                <li>Fax: +44 1865 123457</li>
+            </ul>
+            <p>For specific departments or programs, please use the department-specific contact information below.</p>
+        
+
+        
+            <h2>Visiting Oxford</h2>
+            <img src="./imges/contact2.jpg" alt="Oxford University Tour" style="width:100%; max-width:800px;">
+            <p>We welcome visitors to Oxford University to explore its stunning colleges, historic libraries, and world-renowned museums. Whether you're a prospective student, a tourist, or an alumni, there's always something exciting to see.</p>
+
+            <h3>Booking a Campus Tour</h3>
+            <p>Oxford offers both guided and self-guided tours of the university. You can book a tour through our <a href="https://www.ox.ac.uk/visit" target="_blank">official booking page</a> for a personalized experience, or download our app for a self-guided tour. Tours cover the university's history, academic life, and famous landmarks.</p>
+
+            <h3>Accessibility</h3>
+            <p>Oxford University strives to ensure accessibility for all visitors. Our tours are available for people with disabilities, and we offer special arrangements if you require assistance during your visit. For more information, please visit our <a href="https://www.ox.ac.uk/accessibility" target="_blank">Accessibility page</a>.</p>
+
+            <h3>Opening Hours</h3>
+            <p>The university's visitor attractions are open year-round, though some colleges may have limited hours during vacation periods. Please check specific college opening times on their websites or contact us for more details.</p>
+        
+
+    </section>
+    <section class="contact-form">
+            <h2>Contact Form</h2>
+            <p>If you have specific questions or would like to speak to one of our admissions advisors, please fill out the contact form below. We’ll respond to your query as soon as possible:</p>
+            
+            <form action="/submit_contact_form" method="POST">
+                <label for="name">Your Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Your Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="message">Your Message:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <section class="contact-faqs">
+            <h2>Frequently Asked Questions (FAQs)</h2>
+            <p>Here are some commonly asked questions about Oxford University. If your question isn't listed, feel free to reach out to us directly.</p>
+
+            <h3>1. How do I apply to Oxford University?</h3>
+            <p>Applications to Oxford University are made through UCAS (Universities and Colleges Admissions Service), the UK’s centralized application system. For more information, please visit our <a href="https://www.ox.ac.uk/admissions" target="_blank">Admissions page</a>.</p>
+
+            <h3>2. What is the application deadline?</h3>
+            <p>The deadline for undergraduate applications is typically in mid-October each year. For postgraduate applications, deadlines vary depending on the program, so please check specific course pages for more details.</p>
+
+            <h3>3. Can international students apply?</h3>
+            <p>Yes, Oxford University welcomes applications from international students. We offer a range of scholarships and support services for international students. Please visit our <a href="https://www.ox.ac.uk/admissions/international-students" target="_blank">International Students page</a> for further information.</p>
+
+            <h3>4. Is there financial aid available?</h3>
+            <p>Oxford offers a number of scholarships, grants, and loans to help students finance their education. For more details on available funding, visit our <a href="https://www.ox.ac.uk/admissions/undergraduate/fees-and-funding" target="_blank">Funding and Fees page</a>.</p>
+
+            <h3>5. Can I apply for multiple programs?</h3>
+            <p>Yes, you can apply for more than one course, but we recommend that you carefully consider the programs to ensure they align with your interests and qualifications. Be sure to check specific eligibility requirements for each course.</p>
+        </section>
+
+        <section class="contact-departments">
+            <h2>Departments and Offices</h2>
+            <p>If you have a specific query, please refer to the relevant department's contact information. Here are some key contacts:</p>
+            <ul>
+                <li><strong>Admissions Office:</strong> <a href="mailto:admissions@oxford.ac.uk">admissions@oxford.ac.uk</a></li>
+                <li><strong>Graduate Admissions:</strong> <a href="mailto:gradadmissions@oxford.ac.uk">gradadmissions@oxford.ac.uk</a></li>
+                <li><strong>Student Services:</strong> <a href="mailto:student.services@oxford.ac.uk">student.services@oxford.ac.uk</a></li>
+                <li><strong>International Office:</strong> <a href="mailto:international@oxford.ac.uk">international@oxford.ac.uk</a></li>
+                <li><strong>Careers Services:</strong> <a href="mailto:careers@oxford.ac.uk">careers@oxford.ac.uk</a></li>
+                <li><strong>Libraries and Resources:</strong> <a href="mailto:libraries@oxford.ac.uk">libraries@oxford.ac.uk</a></li>
+            </ul>
+        </section>
+
+        <section class="contact-social">
+            <h2>Social Media</h2>
+            <p>Stay connected with Oxford University through our official social media channels:</p>
+            <ul>
+                <li><a href="https://www.facebook.com/oxforduniversity" target="_blank">Facebook</a></li>
+                <li><a href="https://twitter.com/oxford_uni" target="_blank">Twitter</a></li>
+                <li><a href="https://www.instagram.com/oxford_uni" target="_blank">Instagram</a></li>
+                <li><a href="https://www.linkedin.com/school/oxford-university" target="_blank">LinkedIn</a></li>
+                <li><a href="https://www.youtube.com/user/OxfordUniversity" target="_blank">YouTube</a></li>
+            </ul>
+        </section>
+
+        <section class="contact-general">
+            <h2>General Information</h2>
+            <p>Oxford University is located in the city of Oxford, United Kingdom. It is easily accessible by public transport, car, or on foot. For directions, accommodations, and more information on visiting the university, check our <a href="https://www.ox.ac.uk/visit" target="_blank">Visiting Oxford page</a>.</p>
+            <p>For more information on university services, campus facilities, and opportunities for visitors, please feel free to reach out to us via the contact form or by using the contact information provided above.</p>
+        </section>
+    </main>
+
+
+    <div class="footer-about">
+        <h4>Contact Us</h4>
+        <p><strong>Address:</strong> Oxford University, University Parks, Oxford, OX1 2JD, United Kingdom</p>
+        <p><strong>Email:</strong> <a href="mailto:info@oxford.edu">info@oxford.edu</a></p>
+        <p><strong>Phone:</strong> +44 1865 270000</p>
+        <div class="icons">
+
+            <a href="https://m.facebook.com/the.university.of.oxford/" target="_blank"> <i class="fa-brands fa-facebook"></i></a>
+                
+            <a href="https://x.com/UniofOxford?t=FOLTvTH3wTBrBu2NPXpJ1Q&s=08" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                
+            <a href="https://www.linkedin.com/school/oxforduni/" target="_blank"> <i class="fa-brands fa-linkedin"></i></a>
+            
+            <a href="https://www.instagram.com/oxford_uni/?hl=en" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <h2>Made with <i class="fa-duotone fa-solid fa-heart"></i> by Oxford University</h2>
+    
+        
+        <p>&copy; 2024 Oxford University. All Rights Reserved.</p>
+        <p>Made with <i class="fa-duotone fa-heart"></i> by Oxford University Web Development Team</p>
+    
+    </div>
+      
+
+
+     <!------------java script from toggle menu-------------->
+     <script>
+        var navlinks = document.getElementById("navlinks");
+
+        function showMenu() {
+            console.log("menu clicked ")
+            navlinks.style.right ="0";
+        }
+
+        function hideMenu() {
+            console.log("menu clicked ")
+            navlinks.style.right="-200px";
+        }
+    </script>
+    
+</body>
+</html>
